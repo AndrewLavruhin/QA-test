@@ -1,3 +1,4 @@
+import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -29,5 +30,9 @@ public class WikiTest {
         input.submit();
         String actualTitle = driver.getTitle();
         Assert.assertTrue(String.format("Неправильный месседж! Реальный месседж: '%s'", actualTitle), actualTitle.equals("Ромашка — Википедия"));
+    }
+    @After
+    public void tearDown() {
+        driver.close();
     }
 }
