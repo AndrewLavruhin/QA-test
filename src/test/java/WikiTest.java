@@ -1,6 +1,10 @@
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 /**
@@ -20,5 +24,10 @@ public class WikiTest {
     public void dotesting() throws InterruptedException {
         driver.get("https://ru.wikipedia.org");
         Thread.sleep(5000);
+        WebElement input = driver.findElement(By.xpath("//input[@name='search']"));
+        input.sendKeys("Ромашка");
+        input.submit();
+        String actualTitle = driver.getTitle();
+        Assert.assertTrue(String.format("Неправильный месседж! Реальный месседж: '%s'", actualTitle), actualTitle.equals("Ромашка — Википедия"));
     }
 }
