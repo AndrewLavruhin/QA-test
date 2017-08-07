@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dfc7c99-6339-4df6-98cc-a5fccd69fae2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/HomeWork/HomeWork.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -525,6 +524,14 @@
       <option name="presentableId" value="Default" />
       <updated>1501521405150</updated>
     </task>
+    <task id="LOCAL-00001" summary="Update HomeWorkOne">
+      <created>1502121527776</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1502121527776</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -595,6 +602,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update HomeWorkOne" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update HomeWorkOne" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
