@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.List;
 
-public class Tests {
+public class HomeWork {
 
     private WebDriver driver;
 
@@ -29,6 +29,7 @@ public class Tests {
         downloadBtn.click();
         WebElement downloadJavaBtn = driver.findElement(By.xpath("//td[text()=\"Java\"]/..//a[text()=\"Download\"]"));
         downloadJavaBtn.click();
+
     }
 
     @Test
