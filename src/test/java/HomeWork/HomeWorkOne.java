@@ -29,7 +29,9 @@ public class HomeWorkOne {
         input.submit();
         String actualTitle = driver.getTitle();
         Assert.assertTrue(String.format("Не вірний мессдж! Реалний месседж: '%s'", actualTitle), actualTitle.equals("Downloads"));
+
     }
+
     @After
     public void theEnd(){
         driver.close();
